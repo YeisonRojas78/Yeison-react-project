@@ -1,0 +1,59 @@
+.diseño1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  margin-top: 10%;
+}
+
+.imagen img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.carta {
+  max-width: 400px;
+}
+
+.carta h1 {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
+.carta p {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: small;
+}
+
+.btn {
+  width: 120px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #333;
+}
+
+.text {
+  margin-top: 2%;
+  font-size: medium;
+  margin-left: 2%;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .diseño1 {
+    flex-direction: column;
+    text-align: center;
+  }
+}
