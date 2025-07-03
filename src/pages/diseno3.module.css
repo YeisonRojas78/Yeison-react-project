@@ -1,0 +1,55 @@
+.contenedor {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.carta3 {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+  padding: 20px;
+}
+
+.titulo h1 {
+  margin: 10px 0 5px;
+  font-size: 20px;
+}
+
+.titulo p {
+  margin: 5px 0 15px;
+  color: #888;
+}
+
+.imagen3 img.perfil {
+  width: 150px;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.carta3 p {
+  color: #555;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.botones {
+  display: flex;
+  justify-content: space-around;
+}
+
+.botones button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #00aaff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.botones button:hover {
+  background-color: #008ecc;
+}

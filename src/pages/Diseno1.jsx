@@ -1,8 +1,8 @@
 import React from 'react';
 import styles from './Diseno1.module.css';
-import espantapajaros from '../assets/img/espantapajaros.png'; // Ajusta la ruta si es necesario
+import espantapajaros from '../assets/img/espantapajaros.png'; // Asegúrate de tener esta imagen aquí
 
-const Diseno2 = () => {
+const Diseno1 = () => {
   return (
     <div>
       <h1 className={styles.text}>404 NOT FOUND</h1>

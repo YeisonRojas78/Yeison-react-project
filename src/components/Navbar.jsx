@@ -5,12 +5,13 @@ const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       <div className={styles.container}>
-        <Link className={styles.brand} to="/">Diseños Yeison Rojas</Link>
+        <Link to="/" className={styles.brand}>Diseños Yeison Rojas</Link>
         <ul className={styles.navList}>
-          <li><Link className={styles.link} to="/">Inicio</Link></li>
-          <li><Link className={styles.link} to="/diseño1">Diseño 1</Link></li>
-          <li><Link className={styles.link} to="/diseño2">Diseño 2</Link></li>
-          <li><Link className={styles.link} to="/diseño3">Diseño 3</Link></li>
+          <li><Link to="/" className={styles.link}>Inicio</Link></li>
+          <li><Link to="/diseño1" className={styles.link}>Diseño 1</Link></li>
+          <li><Link to="/diseño2" className={styles.link}>Diseño 2</Link></li>
+          <li><Link to="/diseño3" className={styles.link}>Diseño 3</Link></li>
+          <li><Link to="/diseño4" className={styles.link}>Diseño 4</Link></li>
         </ul>
       </div>
     </nav>
