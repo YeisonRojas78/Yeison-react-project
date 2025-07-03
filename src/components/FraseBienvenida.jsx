@@ -1,6 +1,5 @@
 import React from 'react';
-import styles from './frase.module.css'; 
-
+import styles from './FraseBienvenida.module.css';
 const FraseBienvenida = () => {
   return (
     <div className={styles.frase}>
