@@ -2,8 +2,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import FraseBienvenida from './components/FraseBienvenida';
 import Diseno1 from './pages/Diseno1';
-import Diseno2 from './pages/diseno2';
-import Diseno3 from './pages/diseno3';
+import Diseno2 from './pages/Diseno2';
+import Diseno3 from './pages/Diseno3';
 import Card from './pages/Card';
 
 
